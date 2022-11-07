@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ccbd816a07b206f971042295b899d1ba",
+    "content-hash": "024b8756c4fec1fce45e1daf7eddce99",
     "packages": [
         {
             "name": "brick/math",
@@ -61,6 +61,55 @@
                 }
             ],
             "time": "2022-08-10T22:54:19+00:00"
+        },
+        {
+            "name": "components/jquery",
+            "version": "3.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/components/jquery.git",
+                "reference": "6cf38ee1fd04b6adf8e7dda161283aa35be818c3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/components/jquery/zipball/6cf38ee1fd04b6adf8e7dda161283aa35be818c3",
+                "reference": "6cf38ee1fd04b6adf8e7dda161283aa35be818c3",
+                "shasum": ""
+            },
+            "type": "component",
+            "extra": {
+                "component": {
+                    "scripts": [
+                        "jquery.js"
+                    ],
+                    "files": [
+                        "jquery.min.js",
+                        "jquery.min.map",
+                        "jquery.slim.js",
+                        "jquery.slim.min.js",
+                        "jquery.slim.min.map"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "JS Foundation and other contributors"
+                }
+            ],
+            "description": "jQuery JavaScript Library",
+            "homepage": "http://jquery.com",
+            "support": {
+                "forum": "http://forum.jquery.com",
+                "irc": "irc://irc.freenode.org/jquery",
+                "issues": "https://github.com/jquery/jquery/issues",
+                "source": "https://github.com/jquery/jquery",
+                "wiki": "http://docs.jquery.com/"
+            },
+            "time": "2021-03-20T19:13:42+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
@@ -364,6 +413,55 @@
                 }
             ],
             "time": "2022-09-10T18:51:20+00:00"
+        },
+        {
+            "name": "drmonty/animsition",
+            "version": "4.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mrohnstock/animsition.git",
+                "reference": "fd8228e5615594a739ccfb2e40ae392f0b34d2e6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mrohnstock/animsition/zipball/fd8228e5615594a739ccfb2e40ae392f0b34d2e6",
+                "reference": "fd8228e5615594a739ccfb2e40ae392f0b34d2e6",
+                "shasum": ""
+            },
+            "require": {
+                "components/jquery": ">= 1.11.0"
+            },
+            "type": "component",
+            "extra": {
+                "component": {
+                    "scripts": [
+                        "js/animsition.js",
+                        "js/animsition.min.js"
+                    ],
+                    "files": [
+                        "css/animsition.css",
+                        "css/animsition.min.css",
+                        "js/animsition.js",
+                        "js/animsition.min.js"
+                    ],
+                    "shim": {
+                        "deps": [
+                            "jquery"
+                        ]
+                    }
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A simple and easy jQuery plugin for CSS animated page transitions.",
+            "homepage": "http://git.blivesta.com/animsition",
+            "support": {
+                "issues": "https://github.com/mrohnstock/animsition/issues",
+                "source": "https://github.com/mrohnstock/animsition/tree/master"
+            },
+            "time": "2016-04-27T06:20:07+00:00"
         },
         {
             "name": "egulias/email-validator",
