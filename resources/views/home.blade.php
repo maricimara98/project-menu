@@ -1,61 +1,39 @@
 @extends('layouts.app')
 @section('menu')
-    <div class="topo">
-        <div class="menubtn">
-            <a href="#"><i class="fa-solid fa-bars"></i></a>
-        </div>
-    </div>
 
-    <nav class="sidebar">
-        <div class="text">Menu</div>
-        <ul id="ul-principal">
-            <div>
-                <li class="li-p">
-                    <a href="#" class="dropbtn" onclick="opc1()">Opc 1
-                        <span class="fas fa-caret-down"></span>
-                    </a>
-                    <ul id="myDropdown1" class="dropdown-content">
-                        <li><a href="#">intro 1</a></li>
-                        <li><a href="#">intro 2</a></li>
-                    </ul>
-                </li>
-            </div>
-            <div>
-                <li class="li-p">
-                    <a href="#" class="dropbtn" onclick="opc2()">Opc 2
-                        <span class="fas fa-caret-down"></span>
-                    </a>
-                    <ul id="myDropdown2" class="dropdown-content">
-                        <li><a href="#">intro 1</a></li>
-                        <li><a href="#">intro 2</a></li>
-                    </ul>
-                </li>
-            </div>
-            <div>
-                <li class="li-p">
-                    <a href="#" class="dropbtn" onclick="opc3()">Opc 3
-                        <span class="fas fa-caret-down"></span>
-                    </a>
-                    <ul id="myDropdown3" class="dropdown-content">
-                        <li><a href="#">intro 1</a></li>
-                        <li><a href="#">intro 2</a></li>
-                    </ul>
-                </li>
-            </div>
-            <div>
-                <li class="li-p">
-                    <a href="#" class="dropbtn" onclick="opc4()">Opc 4
-                        <span class="fas fa-caret-down"></span>
-                    </a>
-                    <ul id="myDropdown4" class="dropdown-content">
-                        <li><a href="#">intro 1</a></li>
-                        <li><a href="#">intro 2</a></li>
-                    </ul>
-                </li>
-            </div>
-            
-        </ul>
-    </nav>
+    <body class="site-menubar-fold" data-auto-menubar="false">
 
-    <script></script>
+        <!-- menu topo -->
+        <nav class="site-navbar navbar navbar-default navbar-fixed-top navbar-mega" role="navigation">
+        
+            <div class="navbar-header">
+
+                <button type="button" class="navbar-toggle hamburger hamburger-close navbar-toggle-left hided"
+                    data-toggle="menubar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="hamburger-bar"></span>
+                </button>
+
+                <button type="button" class="navbar-toggle collapsed" data-target="#site-navbar-collapse"
+                    data-toggle="collapse">
+                    <i class="icon wb-more-horizontal" aria-hidden="true"></i>
+                </button>
+
+                <button type="button" class="navbar-toggle collapsed" data-target="#site-navbar-search"
+                    data-toggle="collapse">
+                    <span class="sr-only">Toggle Search</span>
+                    <i class="icon wb-search" aria-hidden="true"></i>
+                </button>
+
+                <div class="navbar-brand navbar-brand-center">
+                    <!--<img class="navbar-brand-logo" src="https://estacionamento.huufma.br/static/assets/images/logo_black.png" title="Serviço Residencial">-->
+                    <span class="icon fa-car fa-3x"></span>
+                    <span class="navbar-brand-text">Menu do Site</span>
+                </div>
+
+            </div>
+      
+        </nav>
+        
+    </body> 
 @endsection

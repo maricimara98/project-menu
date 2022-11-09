@@ -16,6 +16,7 @@
     @include('layouts.fonts')
     @include('layouts.plugins')
     @include('layouts.stylesheets')
+    @include('layouts.scripts')
 
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
     <link rel="shortcut icon" href="images/favicon.png">
